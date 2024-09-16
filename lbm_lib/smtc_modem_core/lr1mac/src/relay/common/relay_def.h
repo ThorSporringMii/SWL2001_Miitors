@@ -47,7 +47,7 @@ extern "C" {
 
 #define RELAY_STACK_ID ( 0 )
 
-#define RELAY_OVERHEAD_FORWARD ( 19 )  // 6 for metadata and 13 for LoRaWAN (1:MHDR/ 7:FHDR / 1:FPORT /4:MIC)
+#define RELAY_OVERHEAD_FORWARD ( 14 )  // 6 for metadata and 13 for LoRaWAN (1:MHDR/ 7:FHDR )
 
 #ifdef _cplusplus
 }
